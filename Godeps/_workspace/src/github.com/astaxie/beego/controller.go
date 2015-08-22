@@ -20,8 +20,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/astaxie/beego/context"
-	"github.com/astaxie/beego/session"
+	"beego-guestbook/Godeps/_workspace/src/github.com/astaxie/beego/context"
+	"beego-guestbook/Godeps/_workspace/src/github.com/astaxie/beego/session"
 )
 
 var (
@@ -165,7 +165,7 @@ func (c *Controller) RenderBytes() ([]byte, error) {
 
 		if c.LayoutSections != nil {
 			for sectionName, sectionTpl := range c.LayoutSections {
-				if (sectionTpl == "") {
+				if sectionTpl == "" {
 					c.Data[sectionName] = ""
 					continue
 				}

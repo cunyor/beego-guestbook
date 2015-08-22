@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	_ "github.com/go-sql-driver/mysql"
+	_ "beego-guestbook/Godeps/_workspace/src/github.com/go-sql-driver/mysql"
 )
 
 var mysqlpder = &MysqlProvider{}

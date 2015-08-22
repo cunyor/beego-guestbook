@@ -1,12 +1,12 @@
 package main
 
 import (
+	"beego-guestbook/Godeps/_workspace/src/github.com/astaxie/beego"
+	"beego-guestbook/Godeps/_workspace/src/github.com/astaxie/beego/orm"
+	_ "beego-guestbook/Godeps/_workspace/src/github.com/go-sql-driver/mysql"
 	"beego-guestbook/models"
 	_ "beego-guestbook/routers"
 	"fmt"
-	"github.com/astaxie/beego"
-	"github.com/astaxie/beego/orm"
-	_ "github.com/go-sql-driver/mysql"
 	"net/url"
 	"os"
 	"strconv"

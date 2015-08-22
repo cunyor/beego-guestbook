@@ -7,7 +7,7 @@ import (
 	"net/http/fcgi"
 	"time"
 
-	"github.com/astaxie/beego/context"
+	"beego-guestbook/Godeps/_workspace/src/github.com/astaxie/beego/context"
 )
 
 // FilterFunc defines filter function type.

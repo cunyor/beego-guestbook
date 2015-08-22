@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/astaxie/beego/middleware"
-	"github.com/astaxie/beego/session"
+	"beego-guestbook/Godeps/_workspace/src/github.com/astaxie/beego/middleware"
+	"beego-guestbook/Godeps/_workspace/src/github.com/astaxie/beego/session"
 )
 
 // beego web framework version.

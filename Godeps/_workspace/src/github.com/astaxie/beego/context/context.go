@@ -3,7 +3,7 @@ package context
 import (
 	"net/http"
 
-	"github.com/astaxie/beego/middleware"
+	"beego-guestbook/Godeps/_workspace/src/github.com/astaxie/beego/middleware"
 )
 
 // Http request context struct including BeegoInput, BeegoOutput, http.Request and http.ResponseWriter.

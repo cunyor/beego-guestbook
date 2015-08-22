@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/astaxie/beego/toolbox"
-	"github.com/astaxie/beego/utils"
+	"beego-guestbook/Godeps/_workspace/src/github.com/astaxie/beego/toolbox"
+	"beego-guestbook/Godeps/_workspace/src/github.com/astaxie/beego/utils"
 )
 
 // BeeAdminApp is the default AdminApp used by admin module.

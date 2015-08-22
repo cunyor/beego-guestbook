@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/astaxie/beego/config"
-	"github.com/astaxie/beego/logs"
-	"github.com/astaxie/beego/session"
+	"beego-guestbook/Godeps/_workspace/src/github.com/astaxie/beego/config"
+	"beego-guestbook/Godeps/_workspace/src/github.com/astaxie/beego/logs"
+	"beego-guestbook/Godeps/_workspace/src/github.com/astaxie/beego/session"
 )
 
 var (

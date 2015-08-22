@@ -5,7 +5,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/beego/redigo/redis"
+	"beego-guestbook/Godeps/_workspace/src/github.com/beego/redigo/redis"
 )
 
 var redispder = &RedisProvider{}

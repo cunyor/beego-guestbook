@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/beego/x2j"
+	"beego-guestbook/Godeps/_workspace/src/github.com/beego/x2j"
 )
 
 // XmlConfig is a xml config parser and implements Config interface.

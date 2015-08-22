@@ -12,10 +12,10 @@ import (
 	"strings"
 	"time"
 
-	beecontext "github.com/astaxie/beego/context"
-	"github.com/astaxie/beego/middleware"
-	"github.com/astaxie/beego/toolbox"
-	"github.com/astaxie/beego/utils"
+	beecontext "beego-guestbook/Godeps/_workspace/src/github.com/astaxie/beego/context"
+	"beego-guestbook/Godeps/_workspace/src/github.com/astaxie/beego/middleware"
+	"beego-guestbook/Godeps/_workspace/src/github.com/astaxie/beego/toolbox"
+	"beego-guestbook/Godeps/_workspace/src/github.com/astaxie/beego/utils"
 )
 
 const (

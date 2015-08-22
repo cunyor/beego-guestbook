@@ -1,6 +1,9 @@
 {
 	"ImportPath": "beego-guestbook",
-	"GoVersion": "go1.2",
+	"GoVersion": "go1.4",
+	"Packages": [
+		"./..."
+	],
 	"Deps": [
 		{
 			"ImportPath": "github.com/astaxie/beego",
@@ -24,6 +27,20 @@
 			"ImportPath": "github.com/go-sql-driver/mysql",
 			"Comment": "go1",
 			"Rev": "9a7aa3606b82e2081a13a008ada88dfdb96c20fd"
+		},
+		{
+			"ImportPath": "github.com/jtolds/gls",
+			"Rev": "9a4a02dbe491bef4bab3c24fd9f3087d6c4c6690"
+		},
+		{
+			"ImportPath": "github.com/smartystreets/assertions",
+			"Comment": "1.5.0-397-gac6b6f6",
+			"Rev": "ac6b6f68ca3d6ac00a360d0fad0c844859ad131b"
+		},
+		{
+			"ImportPath": "github.com/smartystreets/goconvey/convey",
+			"Comment": "1.5.0-412-gbf05a3a",
+			"Rev": "bf05a3a16dad006e63e899124a2c6125028f6b31"
 		},
 		{
 			"ImportPath": "github.com/wendal/errors",

@@ -3,7 +3,7 @@ package beego
 import (
 	"strings"
 
-	"github.com/astaxie/beego/logs"
+	"beego-guestbook/Godeps/_workspace/src/github.com/astaxie/beego/logs"
 )
 
 // Log levels to control the logging output.

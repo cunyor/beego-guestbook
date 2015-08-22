@@ -9,7 +9,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/beego/goyaml2"
+	"beego-guestbook/Godeps/_workspace/src/github.com/beego/goyaml2"
 )
 
 // YAMLConfig is a yaml config parser and implements Config interface.

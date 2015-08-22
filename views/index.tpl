@@ -9,32 +9,32 @@
     <a href="https://github.com/yuhei0718/beego-guestbook"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png" alt="Fork me on GitHub"></a>
 
     <div id="main">
-      <h1>ゲストブック</h1>
+      <h1>Ziyaretci Defteri</h1>
       <div id="form-area">
-        <p>書き込みをどうぞ。</p>
+        <p>Lütfen yazınız</p>
         <form action="/post" method="post">
           <table>
             <tr>
-              <th>名前</th>
+              <th>İsim</th>
               <td>
                 <input type="text" size="20" name="name" />
               </td>
             </tr>
             <tr>
-              <th>コメント</th>
+              <th>Yorum</th>
               <td>
                 <textarea rows="5" cols="40" name="comment"></textarea>
               </td>
             </tr>
           </table>
-          <p><button type="submit">送信</button></p>
+          <p><button type="submit">Gönder</button></p>
         </form>
       </div>
       <div id="entries-area">
-        <h2>これまでの書き込み</h2>
+        <h2>Önceki yorumlar</h2>
         {{range $key, $val := .greetings}}
         <div class="entry">
-          <h3>{{$val.Name}} さんの書き込み({{$val.CreateAt|dateformat}}):</h3>
+          <h3>{{$val.Name}} yazdı: ({{$val.CreateAt|dateformat}}):</h3>
           <p>{{$val.Comment|htmlquote|nl2br|str2html}}</p>
         </div>
         {{end}}

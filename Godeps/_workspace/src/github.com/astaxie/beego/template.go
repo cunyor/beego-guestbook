@@ -12,7 +12,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/astaxie/beego/utils"
+	"beego-guestbook/Godeps/_workspace/src/github.com/astaxie/beego/utils"
 )
 
 var (

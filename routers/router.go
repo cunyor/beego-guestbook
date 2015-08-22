@@ -1,8 +1,8 @@
 package routers
 
 import (
+	"beego-guestbook/Godeps/_workspace/src/github.com/astaxie/beego"
 	"beego-guestbook/controllers"
-	"github.com/astaxie/beego"
 )
 
 func init() {

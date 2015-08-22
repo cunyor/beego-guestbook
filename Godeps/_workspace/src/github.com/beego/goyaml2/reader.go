@@ -1,9 +1,9 @@
 package goyaml2
 
 import (
+	"beego-guestbook/Godeps/_workspace/src/github.com/wendal/errors"
 	"bufio"
 	"fmt"
-	"github.com/wendal/errors"
 	"io"
 	"log"
 	"strings"
