@@ -1,16 +1,9 @@
 package controllers
 
-//import (
-//	"beego-guestbook/Godeps/_workspace/src/github.com/astaxie/beego"
-//	"html/template"
-//	"log"
-//	"net/http"
-//)
-
 import (
-	"beego-guestbook/Godeps/_workspace/src/github.com/astaxie/beego"
-	"beego-guestbook/Godeps/_workspace/src/github.com/astaxie/beego/orm"
-	"beego-guestbook/models"
+	"github.com/astaxie/beego"
+	"github.com/astaxie/beego/orm"
+	"../models"
 )
 
 // ---
